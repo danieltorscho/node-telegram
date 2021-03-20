@@ -1,7 +1,5 @@
-# dependencies
 /node_modules
 
-# misc
 .DS_Store
 .env.local
 .env.development.local
@@ -14,4 +12,3 @@ yarn-debug.log*
 yarn-error.log*
 
 tmp/*
-localstorage/*

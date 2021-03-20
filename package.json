@@ -1,14 +1,14 @@
 {
   "name": "node-telegram",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Node.js template to kickstart on Telegram Bot prototyping.",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node-telegram", "telegram-bot", "bot", "telegram"],
+  "author": "danieltorscho",
   "license": "ISC",
   "engines": {
     "node": "10.x"
@@ -16,9 +16,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jimp": "^0.16.1",
-    "moment": "^2.29.1",
-    "node-localstorage": "^2.1.6",
     "node-telegram-bot-api": "^0.51.0",
     "vue": "^2.6.12",
     "vuex": "^3.6.2"
